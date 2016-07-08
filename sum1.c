@@ -8,7 +8,7 @@ printf("\n enter the value of n");;
 scanf("%d",&n);
 for(i=0;i<=n;i++)
 {
-sum+=i;
+sum=sum+i;
 }
 printf("\n sum of the n number is %d",sum);
 getch();
