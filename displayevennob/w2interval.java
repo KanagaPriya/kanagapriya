@@ -7,7 +7,7 @@ public class evenno {
 {
 	int i;
 	a++;
-	System.out.println("the odd number betwwen two intervals "+a+ "and"+b+ "is");
+	System.out.println("the even number betwwen two intervals "+a+ "and"+b+ "is");
 	for(i=a;i<b;i++)
 	{
 	if(i%2==0)
