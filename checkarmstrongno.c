@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+void main()
 {
 int n,n1,sum=0,r;
 clrscr();
@@ -14,7 +15,7 @@ n=n/10;
 }
 if(n1==sum)
 {
-printf("\n the number %d is an armstrong number");
+printf("\n the number %d is an armstrong number",n1);
 }
 else
 {
